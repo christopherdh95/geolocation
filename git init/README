@@ -1,0 +1,11 @@
+/*System.out.println(" geolocation service read---------"+ g.getGeosipuri()+ " "+ g.getGeoLatitude()+""+g.getGeoLongitude()+""+g.getGeodate()+""+g.getGeotime());*/
+34	
+35			return g;
+36		}
+37		
+38		public void deleteGeolocation(Geolocation geolocation) {
+39			geolocationDao.deleteGeolocation(geolocation);
+40		}
+41	
+42	
+43	}
